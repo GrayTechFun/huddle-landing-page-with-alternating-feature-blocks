@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-boxx;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 35em;
+  margin: 0 auto;
+}
+
+.top {
+  background-image: url(../images/bg-hero-mobile.svg);
+  background-color: #eafaff;
+  padding-top: 1em;
+}
+
+.para {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+header img {
+  width: 10em;
+  margin-left: 1em;
+}
+
+header button {
+  width: 8em;
+  height: 1.8em;
+  margin-left: 9em;
+  border-radius: 5em;
+  border-style: none;
+  background-color: white;
+}
+
+.content img {
+  width: 30em;
+  margin: 1em 2em 2em;
+}
+
+h1 {
+  margin: 4em 3em 1em;
+  text-align: center;
+}
+
+.para p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 6em 1em;
+}
+
+.start {
+  width: 15em;
+  height: 3em;
+  color: white;
+  border-style: none;
+  border-radius: 5em;
+  background-color: hsl(322, 100%, 66%);
+  margin: 1em 5.5em 2em;
+}
+
+.card img {
+  width: 25em;
+  margin: 3em 5em 0;
+}
+
+.card {
+  margin-top: 4em;
+  height: 45em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+  margin-top: 3em;
+}
+
+.card p {
+  color: gray;
+  text-align: center;
+  font-weight: normal;
+  margin: 0 6.5em;
+}
+
+.mid-card {
+  margin-top: 8em;
+  width: 35em;
+  height: 13em;
+  background-color: whtie;
+  border-radius: 2em;
+  padding: 2em 0 0;
+  color: black;
+  padding-top: 5em;
+  margin-bottom: -1em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.mid-card h3 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding-top: 10em;
+  padding-left: 1em;
+  font-size: 1.3rem;
+  position: relative;
+  overflow: visible;
+  z-index: 1;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.location {
+  display: flex;
+  gap: 2em;
+}
+
+.phone {
+  display: flex;
+  gap: 2em;
+}
+
+.email {
+  display: flex;
+  gap: 2em;
+}
+
+.location img {
+  width: 1.5em;
+  height: 2em;
+}
+
+.location p {
+  margin-right: 6.5em;
+}
+
+.phone {
+  display: flex;
+}
+
+.email {
+  display: flex;
+}
+
+.logo {
+  filter: invert(96%) sepia(15%) saturate(89%) hue-rotate(124deg)
+    brightness(118%) contrast(100%);
+  width: 15em;
+}
+
+.contact {
+  margin: 3em 0 3em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.career {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.icon {
+  display: flex;
+  gap: 1em;
+  margin-left: 9em;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: center;
+}
+
+.social p {
+  margin-bottom: 3em;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: auto;
+    max-width: 1440px;
+  }
+
+  .top {
+    background-image: url(../images/bg-hero-desktop.svg);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header button {
+    margin-right: 1em;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  .para {
+    margin-left: -5em;
+    margin-right: 60em;
+  }
+
+  .card {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 30em;
+    text-align: start;
+  }
+
+  .grow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .conversation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .users {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .mid-card {
+    margin-left: 55em;
+    width: 40em;
+    text-align: center;
+  }
+
+  .paraa h3 {
+    text-align: start;
+    margin-left: 3.7em;
+  }
+
+  .paraa p {
+    text-align: start;
+  }
+
+  .about {
+    flex-direction: row;
+  }
+
+  .career {
+    flex-direction: row;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 1em;
+    padding-bottom: 2em;
+  }
+
+  .social {
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+}
